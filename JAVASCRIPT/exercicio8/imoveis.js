@@ -33,6 +33,9 @@ do {
 
       if (confirma) {
         imoveis.push(imovel)
+        alert("Imóvel salvo com sucesso!")
+      } else {
+        alert("Voltando ao menu.")
       }
       break
     case "2":
