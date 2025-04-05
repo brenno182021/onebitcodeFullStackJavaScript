@@ -28,7 +28,6 @@ console.log(calculadora.multiplicar(3, 7))
 // Funções anônimas só podem ser chamadas após a atribuição da variável,
 // elas não são jogadas para o topo do arquivo como funções normais
 olaMundo()
-oiMundo()
 
 function olaMundo() {
   console.log("Olá, mundo!")
@@ -37,3 +36,5 @@ function olaMundo() {
 const oiMundo = function () {
   console.log("Oi, mundo!")
 }
+
+oiMundo()
